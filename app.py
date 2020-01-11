@@ -41,6 +41,6 @@ def index():
             'icon': r['weather'][0]['icon'],
         }
 
-        weather_data.append(weather)
+        weather_data.append(index)
 
     return render_template("index.html", weather_data=weather_data)
